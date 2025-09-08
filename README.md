@@ -4,7 +4,7 @@ This is a soft fork of [social app](https://github.com/bluesky-social/social-app
 
 Get the app itself:
 
-- **Web: [deer.social](https://deer.social)**
+- **Web: [bsky.meowing.zip](https://bsky.meowing.zip)**
 - ~**iOS: [App Store]()**~ WIP
 - ~**Android: [Play Store]()**~ WIP
 
