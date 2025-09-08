@@ -110,13 +110,13 @@ export function DesktopRightNav({routeName}: {routeName: string}) {
           </>
         )}
         <InlineLinkText
-          to="https://social.daniela.lol/about/privacy"
+          to="https://bsky.meowing.zip/about/privacy"
           label={_(msg`Privacy`)}>
           {_(msg`Privacy`)}
         </InlineLinkText>
         {' • '}
         <InlineLinkText
-          to="https://social.daniela.lol/about/tos"
+          to="https://bsky.meowing.zip/about/tos"
           label={_(msg`Terms`)}>
           {_(msg`Terms`)}
         </InlineLinkText>

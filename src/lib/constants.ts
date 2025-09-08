@@ -7,8 +7,8 @@ import {BLUESKY_PROXY_DID, CHAT_PROXY_DID} from '#/env'
 export const LOCAL_DEV_SERVICE =
   Platform.OS === 'android' ? 'http://10.0.2.2:2583' : 'http://localhost:2583'
 export const STAGING_SERVICE = 'https://staging.bsky.dev'
-export const BSKY_SERVICE = 'https://bsky.social'
-export const BSKY_SERVICE_DID = 'did:web:bsky.social'
+export const BSKY_SERVICE = 'https://pds.meowing.zip'
+export const BSKY_SERVICE_DID = 'did:web:meowing.zip'
 export const PUBLIC_BSKY_SERVICE = 'https://public.api.bsky.app'
 export const DEFAULT_SERVICE = BSKY_SERVICE
 export const HELP_DESK_URL = `https://github.com/danielah05/deer-social/issues/new/choose`
@@ -35,6 +35,7 @@ export const DISCOVER_DEBUG_DIDS: Record<string, true> = {
   'did:plc:vjug55kidv6sye7ykr5faxxn': true, // emilyliu.me
   'did:plc:tgqseeot47ymot4zro244fj3': true, // iwsmith.bsky.social
   'did:plc:2dzyut5lxna5ljiaasgeuffz': true, // darrin.bsky.team
+  'did:plc:yt66ucfex7kgaifhu5qijrz3': true, // gayfamicom.lol
 }
 
 const BASE_FEEDBACK_FORM_URL = `${HELP_DESK_URL}`
@@ -117,7 +118,7 @@ export const LANG_DROPDOWN_HITSLOP = {top: 10, bottom: 10, left: 4, right: 4}
 export const BACK_HITSLOP = HITSLOP_30
 export const MAX_POST_LINES = 25
 
-export const BSKY_APP_ACCOUNT_DID = 'did:plc:z72i7hdynmk6r22z27h6tvur'
+export const BSKY_APP_ACCOUNT_DID = 'did:plc:yt66ucfex7kgaifhu5qijrz3'
 
 export const BSKY_FEED_OWNER_DIDS = [
   BSKY_APP_ACCOUNT_DID,

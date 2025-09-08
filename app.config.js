@@ -18,7 +18,7 @@ module.exports = function (_config) {
   const IS_DEV = !IS_TESTFLIGHT || !IS_PRODUCTION
 
   const ASSOCIATED_DOMAINS = [
-    'applinks:social.daniela.lol',
+    'applinks:bsky.meowing.zip',
     // When testing local services, enter an ngrok (et al) domain here. It must use a standard HTTP/HTTPS port.
     ...(IS_DEV || IS_TESTFLIGHT ? [] : []),
   ]
@@ -36,9 +36,9 @@ module.exports = function (_config) {
   return {
     expo: {
       version: VERSION,
-      name: 'deer.social',
-      slug: 'deer',
-      scheme: ['bluesky', 'deer'],
+      name: 'meowing.zip',
+      slug: 'meowing',
+      scheme: ['bluesky', 'meowing'],
       // owner: 'blueskysocial',
       // owner: 'neema.brown',
       runtimeVersion: {
@@ -46,7 +46,7 @@ module.exports = function (_config) {
       },
       icon: './assets/app-icons/ios_icon_default_light.png',
       userInterfaceStyle: 'automatic',
-      primaryColor: '#4b9b6c',
+      primaryColor: '#7f709c',
       ios: {
         supportsTablet: false,
         bundleIdentifier: 'social.deer',
@@ -63,7 +63,7 @@ module.exports = function (_config) {
             'Used to save images to your library.',
           NSPhotoLibraryUsageDescription:
             'Used for profile pictures, posts, and other kinds of content',
-          CFBundleSpokenName: 'social.daniela.lol',
+          CFBundleSpokenName: 'bsky.meowing.zip',
           CFBundleLocalizations: [
             'en',
             'an',
@@ -150,7 +150,7 @@ module.exports = function (_config) {
           foregroundImage: './assets/icon-android-foreground.png',
           monochromeImage: './assets/icon-android-foreground.png',
           backgroundImage: './assets/icon-android-background.png',
-          backgroundColor: '#4b9b6c',
+          backgroundColor: '#7f709c',
         },
         googleServicesFile: './google-services.json',
         package: 'social.deer',
@@ -161,7 +161,7 @@ module.exports = function (_config) {
             data: [
               {
                 scheme: 'https',
-                host: 'social.daniela.lol',
+                host: 'bsky.meowing.zip',
               },
               {
                 scheme: 'https',
@@ -249,7 +249,7 @@ module.exports = function (_config) {
           'expo-notifications',
           {
             icon: './assets/icon-android-notification.png',
-            color: '#4b9b6c',
+            color: '#7f709c',
             sounds: PLATFORM === 'ios' ? ['assets/dm.aiff'] : ['assets/dm.mp3'],
           },
         ],
@@ -304,11 +304,11 @@ module.exports = function (_config) {
               },
             },
             android: {
-              backgroundColor: '#4b9b6c',
+              backgroundColor: '#7f709c',
               image: './assets/splash-android-icon.png',
               imageWidth: 150,
               dark: {
-                backgroundColor: '#01331a',
+                backgroundColor: '#150133',
                 image: './assets/splash-android-icon-dark.png',
                 imageWidth: 150,
               },
