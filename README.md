@@ -1,6 +1,6 @@
-# deer.social
+# bsky.meowing.zip
 
-This is a soft fork of [social app](https://github.com/bluesky-social/social-app).
+This is a soft fork of [deer-social](https://github.com/a-viv-a/deer-social) which is also a soft fork of [social app](https://github.com/bluesky-social/social-app).
 
 Get the app itself:
 
@@ -21,22 +21,22 @@ Get the app itself:
 
 ### WIP/Planned
 
-- rewrite shared URLs to reference deer.social
+- rewrite shared URLs to reference bsky.meowing.zip
 - opengraph support for sharing posts and profiles
 - selecting custom appviews
 - seeing past blocks in post threads (nuclear block for reply chains)
 
 ## Philosophy
 
-- by default, deer.social should very similar to the official client
-  - color and branding are different to distinguish from social-app
-  - `!no-unauthenticated` behavior is different
-  - analytics are not present
-- opinionated features behind toggles
-- focus on high impact, low diff size patches
-  - specifically patches that won't require large conflicts to be resolved
-- focus on power users (but all users are welome!)
-- enable things that are possible but annoying today **without** egging on antisocial behavior
+- by default, bsky.meowing.zip should very similar to the official client
+  - color and branding are different to distinguish from deer-social & social-app
+  - `!no-unauthenticated` behavior is different *(just like deer-social)*
+  - analytics are not present *(just like deer-social)*
+- opinionated features behind toggles *(just like deer-social)*
+- focus on high impact, low diff size patches *(just like deer-social)*
+  - specifically patches that won't require large conflicts to be resolved *(just like deer-social)*
+- focus on power users (but all users are welome!) *(just like deer-social)*
+- enable things that are possible but annoying today **without** egging on antisocial behavior *(just like deer-social)*
 
 ## Development Resources
 
@@ -50,17 +50,17 @@ The [Build Instructions](./docs/build.md) are a good place to get started with t
 the web version of the app.
 
 The Authenticated Transfer Protocol ("AT Protocol" or "atproto") is a decentralized social media protocol. You don't *need* to understand AT Protocol to work with this application, but it can help.
-You may wish to reference [resources linked in social-app](https://github.com/bluesky-social/social-app#development-resources). However, please don't harass the Bluesky team with issues or questions
-pertaining to deer.social.
+You may wish to reference [resources linked in social-app](https://github.com/bluesky-social/social-app#development-resources). However, please don't harass the Bluesky team or the deer.social team with issues or questions
+pertaining to bsky.meowing.zip.
 
-Deer is a fork of the official client, social-app. It encompasses a set of schemas and APIs built in the overall AT Protocol framework. The namespace for these "Lexicons" is `app.bsky.*`.
+bsky.meowing.zip is a fork of Deer which is also a fork of the official client, social-app. It encompasses a set of schemas and APIs built in the overall AT Protocol framework. The namespace for these "Lexicons" is `app.bsky.*`.
 
 ## Contributions
 
-> deer.social is a community fork, and we'd love to merge your PR!
+> bsky.meowing.zip is a community fork, and we'd love to merge your PR!
 
-As a rule of thumb, the best features for deer.social are ones that have a disproportionately positive impact on the user experience compared to the matinance overhead.
-Unlike some open source projects, since deer.social is a soft fork, any features (patches) we add on top of upstream social-app need to be maintained. For example,
+As a rule of thumb, the best features for bsky.meowing.zip are ones that have a disproportionately positive impact on the user experience compared to the matinance overhead.
+Unlike some open source projects, since bsky.meowing.zip is a soft fork, any features (patches) we add on top of upstream social-app need to be maintained. For example,
 a change to the way posts are composed may be very invasive, touching lots of code across the codebase. If upstream refactors this component, we will need to rewrite this
 feature to be compatible or drop it from the client.
 
@@ -82,23 +82,23 @@ If we don't merge your PR for whatever reason, you are welcome to fork and/or se
 
 ## Forking guidelines
 
-Just like social-app, you have our blessing 🪄✨ to fork this application! However, it's very important to be clear to users when you're giving them a fork.
+Just like social-app & deer-social, you have our blessing 🪄✨ to fork this application! However, it's very important to be clear to users when you're giving them a fork.
 
 Please be sure to:
 
-- Change all branding in the repository and UI to clearly differentiate from deer.social.
+- Change all branding in the repository and UI to clearly differentiate from bsky.meowing.zip.
 - Change any support links (feedback, email, terms of service, issue tracker, etc) to your own systems.
 
 ## Self hosting & personal builds
 
-Self hosting is great! It is our intention that deer.social is easy to self host and build on your own. If you host your own instance of deer.social, or make your own builds, please
+Self hosting is great! It is our intention that bsky.meowing.zip is easy to self host and build on your own. If you host your own instance of bsky.meowing.zip, or make your own builds, please
 make some level of effort to clarify that it is not an "official" build or instance. This can be in the form of a different domain or branding, but can also be as simple as not
 advertising your hosted instance or builds as "official" releases. 
 
 ## Security disclosures
 
-If you discover any security issues, please send an email to aviva@rubenfamily.com.
-If the issue pertains to infastructure, code, or systems outside the scope of deer.social, please refer to the
+If you discover any security issues, please send an email to mail@gayfamicom.lol.
+If the issue pertains to infastructure, code, or systems outside the scope of bsky.meowing.zip, please refer to the
 [disclosure guidelines on social-app](https://github.com/bluesky-social/social-app#security-disclosures) if it is hosted by Bluesky PBC. Otherwise, reference the
 security policy of that system as applicable <3
 
