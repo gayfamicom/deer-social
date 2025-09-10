@@ -1,9 +1,9 @@
-name: Build social.daniela.lol
+name: Build bsky.meowing.zip
 on: workflow_dispatch
 
 jobs:
   deer-build-android:
-    name: Build social.daniela.lol for Android
+    name: Build bsky.meowing.zip for Android
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

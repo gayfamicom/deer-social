@@ -36,9 +36,9 @@ module.exports = function (_config) {
   return {
     expo: {
       version: VERSION,
-      name: 'meowing.zip',
-      slug: 'meowing',
-      scheme: ['bluesky', 'meowing'],
+      name: 'bsky.meowing.zip',
+      slug: 'deer',
+      scheme: ['bluesky', 'deer'],
       // owner: 'blueskysocial',
       // owner: 'neema.brown',
       runtimeVersion: {
@@ -49,7 +49,7 @@ module.exports = function (_config) {
       primaryColor: '#7f709c',
       ios: {
         supportsTablet: false,
-        bundleIdentifier: 'social.deer',
+        bundleIdentifier: 'zip.meowing.bsky',
         config: {
           usesNonExemptEncryption: false,
         },
@@ -111,7 +111,7 @@ module.exports = function (_config) {
         entitlements: {
           'com.apple.developer.kernel.increased-memory-limit': true,
           'com.apple.developer.kernel.extended-virtual-addressing': true,
-          'com.apple.security.application-groups': 'group.social.deer',
+          'com.apple.security.application-groups': 'group.zip.meowing.bsky',
         },
         privacyManifests: {
           NSPrivacyAccessedAPITypes: [
@@ -153,7 +153,7 @@ module.exports = function (_config) {
           backgroundColor: '#7f709c',
         },
         googleServicesFile: './google-services.json',
-        package: 'social.deer',
+        package: 'zip.meowing.bsky',
         intentFilters: [
           {
             action: 'VIEW',
