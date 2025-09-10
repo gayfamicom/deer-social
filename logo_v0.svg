@@ -2,13 +2,37 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="344.19662"
+   width="344.19666"
    height="345.98047"
-   viewBox="0 0 344.19662 345.98047"
+   viewBox="0 0 344.19665 345.98047"
    version="1.1"
    id="svg1"
+   sodipodi:docname="meowing.svg"
+   inkscape:export-filename="Documents/GitHub/deer-social/assets/icon-android-foreground.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="344.19666"
+       height="345.98047"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
   <defs
      id="defs1">
     <clipPath
@@ -30,7 +54,7 @@
      transform="translate(-27.1278,-22.974609)">
     <path
        id="path1"
-       style="fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.6;stroke-linecap:round;stroke-miterlimit:9.7;stroke-dasharray:19.8, 19.8;stroke-dashoffset:153.12;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.6;stroke-linecap:round;stroke-miterlimit:9.7;stroke-dasharray:19.8, 19.8;stroke-dashoffset:153.12;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 38.722656,22.974609 c 0,0 -28.026062,40.854404 3.066406,176.732421 a 158.15543,158.15543 0 0 0 -0.160156,7.09766 158.15543,158.15543 0 0 0 12.927735,62.62695 l -14.927735,53.4082 25.283203,-0.56836 0.335938,46.6836 52.023433,-27.22461 a 158.15543,158.15543 0 0 0 82.51368,23.22851 158.15543,158.15543 0 0 0 86.53125,-25.77148 l 49.24023,25.76758 0.33594,-46.6836 25.2832,0.56836 -14.7539,-52.7832 a 158.15543,158.15543 0 0 0 11.51757,-59.25195 158.15543,158.15543 0 0 0 -0.38476,-11.03907 c 29.65852,-132.72911 2.17383,-172.791011 2.17383,-172.791011 0,0 -54.40405,6.892114 -85.5879,44.244141 A 158.15543,158.15543 0 0 0 199.78516,48.648438 158.15543,158.15543 0 0 0 124.6543,67.632812 C 93.528428,29.917082 38.722656,22.974609 38.722656,22.974609 Z"
        clip-path="url(#clipPath14)" />
   </g>
