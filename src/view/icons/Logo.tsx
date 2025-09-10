@@ -69,4 +69,3 @@ export const Logo = React.forwardRef(function LogoImpl(props: Props, ref) {
     </Svg>
   )
 })
-z
