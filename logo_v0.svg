@@ -2,15 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="344.19666"
-   height="345.98047"
-   viewBox="0 0 344.19665 345.98047"
+   width="512"
+   height="512"
+   viewBox="0 0 511.99999 512"
    version="1.1"
    id="svg1"
-   sodipodi:docname="meowing.svg"
-   inkscape:export-filename="Documents/GitHub/deer-social/assets/icon-android-foreground.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
+   sodipodi:docname="logo_v0.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -27,8 +24,8 @@
     <inkscape:page
        x="0"
        y="0"
-       width="344.19666"
-       height="345.98047"
+       width="512"
+       height="512"
        id="page2"
        margin="0"
        bleed="0" />
@@ -51,7 +48,7 @@
   </defs>
   <g
      id="layer1"
-     transform="translate(-27.1278,-22.974609)">
+     transform="matrix(1.4875218,0,0,1.4798523,-40.353196,-33.999025)">
     <path
        id="path1"
        style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.6;stroke-linecap:round;stroke-miterlimit:9.7;stroke-dasharray:19.8, 19.8;stroke-dashoffset:153.12;stroke-opacity:1;paint-order:stroke fill markers"
